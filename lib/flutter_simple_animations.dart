@@ -1,8 +1,6 @@
+library flutter_simple_animations;
 
-import 'flutter_simple_animations_platform_interface.dart';
-
-class FlutterSimpleAnimations {
-  Future<String?> getPlatformVersion() {
-    return FlutterSimpleAnimationsPlatform.instance.getPlatformVersion();
-  }
-}
+export 'src/fade_animation.dart' show FadeAnimation;
+export 'src/fade_slide_animation.dart' show FadeSlideAnimation;
+export 'src/bounce_down_animation.dart' show BounceDownAnimation;
+export 'src/rotating_text.dart' show RotatingText;
