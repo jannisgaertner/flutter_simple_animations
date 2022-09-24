@@ -18,16 +18,3 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: dev.xn--grtner-bua.flutter_simple_animations
-        pluginClass: FlutterSimpleAnimationsPlugin
-      ios:
-        pluginClass: FlutterSimpleAnimationsPlugin
-      linux:
-        pluginClass: FlutterSimpleAnimationsPlugin
-      macos:
-        pluginClass: FlutterSimpleAnimationsPlugin
-      windows:
-        pluginClass: FlutterSimpleAnimationsPluginCApi
